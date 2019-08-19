@@ -1,0 +1,2 @@
+# S19PRT455_RAPP_ProCoach
+The assistant coach app concept is basically player management application which includes all the activities and procedures that every cricket coach and captain need when they are selecting a team and practice sessions. Coach and team captain can select the team with the available players for the next match and they can manage the players based on their performances and workload. The Assistant coach app simplifies and reduces the work load of cricket coach and the captain.
