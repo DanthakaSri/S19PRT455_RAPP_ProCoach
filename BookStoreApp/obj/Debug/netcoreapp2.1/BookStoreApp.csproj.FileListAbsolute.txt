@@ -40,3 +40,8 @@ E:\CDU works\Software development Project\Project\BookStoreApp\obj\Debug\netcore
 E:\CDU works\Software development Project\Project\BookStoreApp\obj\Debug\netcoreapp2.1\Razor\Views\Printers\Details.g.cshtml.cs
 E:\CDU works\Software development Project\Project\BookStoreApp\obj\Debug\netcoreapp2.1\Razor\Views\Printers\Edit.g.cshtml.cs
 E:\CDU works\Software development Project\Project\BookStoreApp\obj\Debug\netcoreapp2.1\Razor\Views\Printers\Index.g.cshtml.cs
+E:\CDU works\Software development Project\Project\BookStoreApp\obj\Debug\netcoreapp2.1\Razor\Views\Scanners\Create.g.cshtml.cs
+E:\CDU works\Software development Project\Project\BookStoreApp\obj\Debug\netcoreapp2.1\Razor\Views\Scanners\Delete.g.cshtml.cs
+E:\CDU works\Software development Project\Project\BookStoreApp\obj\Debug\netcoreapp2.1\Razor\Views\Scanners\Details.g.cshtml.cs
+E:\CDU works\Software development Project\Project\BookStoreApp\obj\Debug\netcoreapp2.1\Razor\Views\Scanners\Edit.g.cshtml.cs
+E:\CDU works\Software development Project\Project\BookStoreApp\obj\Debug\netcoreapp2.1\Razor\Views\Scanners\Index.g.cshtml.cs

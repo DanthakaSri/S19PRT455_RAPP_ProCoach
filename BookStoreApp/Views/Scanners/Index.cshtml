@@ -1,4 +1,4 @@
-﻿@model IEnumerable<BookStoreApp.DAL.Book>
+﻿@model IEnumerable<BookStoreApp.DAL.Scanner>
 
 @{
     ViewData["Title"] = "Index";
@@ -8,12 +8,19 @@
 
 <p>
     <a asp-action="Create" class="btn btn-success" role="button">Create New</a>
+    
 </p>
-<table class="table table-bordered">
+<table class="table table table-bordered">
     <thead>
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Model)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Brand)
             </th>
             <th></th>
         </tr>
@@ -25,7 +32,13 @@
                 @Html.DisplayFor(modelItem => item.Name)
             </td>
             <td>
-                <a asp-action="Edit" class="btn btn-primary"asp-route-id="@item.ID">Edit</a> |
+                @Html.DisplayFor(modelItem => item.Model)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Brand)
+            </td>
+            <td>
+                <a asp-action="Edit"  class="btn btn-primary"asp-route-id="@item.ID">Edit</a> |
                 <a asp-action="Details" class="btn btn-info" asp-route-id="@item.ID">Details</a> |
                 <a asp-action="Delete" class="btn btn-danger" asp-route-id="@item.ID">Delete</a>
             </td>

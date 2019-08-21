@@ -15,5 +15,6 @@ namespace BookStoreApp.DAL
 
         public virtual DbSet<Book> Books { get; set; }
         public virtual DbSet<Printer> Printers { get; set; }
+        public virtual DbSet<Scanner> Scanners { get; set; }
     }
 }
