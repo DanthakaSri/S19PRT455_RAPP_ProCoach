@@ -14,6 +14,8 @@ namespace BookStoreApp.DAL
         {
         }
 
-        public DbSet<Book> Book { get; set; }
+        public DbSet<Book> Book{ get; set; }
+        public DbSet<Printer> Printer { get; set; }
     }
+
 }
