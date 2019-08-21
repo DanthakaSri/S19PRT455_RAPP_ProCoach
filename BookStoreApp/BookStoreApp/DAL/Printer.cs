@@ -11,16 +11,8 @@ namespace BookStoreApp.DAL
         public int Id { get; set; }
         public String Name { get; set; }
         public String Brand { get; set; }
+
+        public String Model { get; set; }
     }
 
-
-    public class EfBridgeContext : DbContext
-    {
-        public EfBridgeContext(DbContextOptions options) : base(options)
-        {
-
-        }
-        public virtual DbSet<Printer> printer { get; set; }
-
-    }
 }
