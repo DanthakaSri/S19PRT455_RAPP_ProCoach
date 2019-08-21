@@ -3,3 +3,6 @@
 ################################################################################
 
 /BookStoreApp/.vs/BookStoreApp/v16/Server/sqlite3
+/BookStoreApp/bin/Debug/netcoreapp2.1
+/BookStoreApp/obj/Debug/netcoreapp2.1
+/BookStoreApp/.vs/BookStoreApp/config
