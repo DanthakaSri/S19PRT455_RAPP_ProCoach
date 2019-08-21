@@ -30,3 +30,13 @@ E:\CDU works\Software development Project\Project\BookStoreApp\obj\Debug\netcore
 E:\CDU works\Software development Project\Project\BookStoreApp\obj\Debug\netcoreapp2.1\BookStoreApp.dll
 E:\CDU works\Software development Project\Project\BookStoreApp\obj\Debug\netcoreapp2.1\BookStoreApp.pdb
 E:\CDU works\Software development Project\Project\BookStoreApp\obj\Debug\netcoreapp2.1\BookStoreApp.csproj.CopyComplete
+E:\CDU works\Software development Project\Project\BookStoreApp\obj\Debug\netcoreapp2.1\Razor\Views\Book\Create.g.cshtml.cs
+E:\CDU works\Software development Project\Project\BookStoreApp\obj\Debug\netcoreapp2.1\Razor\Views\Book\Delete.g.cshtml.cs
+E:\CDU works\Software development Project\Project\BookStoreApp\obj\Debug\netcoreapp2.1\Razor\Views\Book\Details.g.cshtml.cs
+E:\CDU works\Software development Project\Project\BookStoreApp\obj\Debug\netcoreapp2.1\Razor\Views\Book\Edit.g.cshtml.cs
+E:\CDU works\Software development Project\Project\BookStoreApp\obj\Debug\netcoreapp2.1\Razor\Views\Book\Index.g.cshtml.cs
+E:\CDU works\Software development Project\Project\BookStoreApp\obj\Debug\netcoreapp2.1\Razor\Views\Printers\Create.g.cshtml.cs
+E:\CDU works\Software development Project\Project\BookStoreApp\obj\Debug\netcoreapp2.1\Razor\Views\Printers\Delete.g.cshtml.cs
+E:\CDU works\Software development Project\Project\BookStoreApp\obj\Debug\netcoreapp2.1\Razor\Views\Printers\Details.g.cshtml.cs
+E:\CDU works\Software development Project\Project\BookStoreApp\obj\Debug\netcoreapp2.1\Razor\Views\Printers\Edit.g.cshtml.cs
+E:\CDU works\Software development Project\Project\BookStoreApp\obj\Debug\netcoreapp2.1\Razor\Views\Printers\Index.g.cshtml.cs
