@@ -33,9 +33,11 @@ namespace BookStoreApp
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            services.AddDbContext<EfBridgeContext>(opts => opts.UseSqlServer(Configuration["ConnectionString:BookStoreDB"]));
+            services.AddDbContext<EfBridgeContext>(opts => opts.UseSqlServer(Configuration["ConnectionString:BookStoreDB_Dev"]));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
      
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
