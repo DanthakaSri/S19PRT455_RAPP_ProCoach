@@ -7,16 +7,17 @@ namespace ProCoach.Data
 {
     public class Team
     {
-        public int Id { get; set; }
-        public  String  Name  { get; set; }
+        public int id { get; set; }
+        public  string  team_name  { get; set; }
 
-        public String Email { get; set; }
+        public string email { get; set; }
 
-        public String Club { get; set; }
+        public string club { get; set; }
 
-        public String Sport { get; set; }
+        public string sport { get; set; }
+        public string  coaches { get; set; }
 
-        public String Competition { get; set; }
+        public string competition { get; set; }
 
        
 
