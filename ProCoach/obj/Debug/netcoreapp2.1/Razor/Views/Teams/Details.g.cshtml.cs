@@ -184,7 +184,11 @@ using ProCoach.Models;
             WriteLiteral("\r\n        </dd>\r\n    </dl>\r\n</div>\r\n<div>\r\n    ");
             EndContext();
             BeginContext(1212, 54, false);
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "48f21b92d42242789280274e9105614d", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1d872e8a85b54dea87bb0017998f671a", async() => {
+>>>>>>> bf5dab2cd0cb73f4bbce57b46b919aec3017c01c
                 BeginContext(1258, 4, true);
                 WriteLiteral("Edit");
                 EndContext();
@@ -219,7 +223,11 @@ using ProCoach.Models;
             WriteLiteral(" |\r\n    ");
             EndContext();
             BeginContext(1274, 38, false);
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "92bd708be63340cd96df8695e2f439fd", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "63127d410f394f1c84dc78ba3cab9d9d", async() => {
+>>>>>>> bf5dab2cd0cb73f4bbce57b46b919aec3017c01c
                 BeginContext(1296, 12, true);
                 WriteLiteral("Back to List");
                 EndContext();

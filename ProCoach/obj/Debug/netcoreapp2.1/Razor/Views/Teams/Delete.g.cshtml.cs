@@ -188,12 +188,20 @@ using ProCoach.Models;
             WriteLiteral("\r\n        </dd>\r\n    </dl>\r\n    \r\n    ");
             EndContext();
             BeginContext(1249, 207, false);
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "737bc8b94baf4574978786bd95cb16b4", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "958e0ec2e0f6488e833c9c8e00beeca2", async() => {
+>>>>>>> bf5dab2cd0cb73f4bbce57b46b919aec3017c01c
                 BeginContext(1275, 10, true);
                 WriteLiteral("\r\n        ");
                 EndContext();
                 BeginContext(1285, 36, false);
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "8591486fcba6412e844f4f55f300ae36", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "9d2a1bff0a6a461180cb4729609d4813", async() => {
+>>>>>>> bf5dab2cd0cb73f4bbce57b46b919aec3017c01c
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -218,7 +226,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 WriteLiteral("\r\n        <input type=\"submit\" value=\"Delete\" class=\"btn btn-default\" /> |\r\n        ");
                 EndContext();
                 BeginContext(1405, 38, false);
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9810b66e3f494a399531978b873b33af", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9d8da3ed29664a6c8b67dfb91564df84", async() => {
+>>>>>>> bf5dab2cd0cb73f4bbce57b46b919aec3017c01c
                     BeginContext(1427, 12, true);
                     WriteLiteral("Back to List");
                     EndContext();
