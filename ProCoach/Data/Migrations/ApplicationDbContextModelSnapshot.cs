@@ -184,6 +184,33 @@ namespace ProCoach.Data.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
+            modelBuilder.Entity("ProCoach.Data.Player", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Clubname");
+
+                    b.Property<string>("DOB");
+
+                    b.Property<int>("EmergencyContact");
+
+                    b.Property<int>("Mobileno");
+
+                    b.Property<string>("Name");
+
+                    b.Property<string>("Sports");
+
+                    b.Property<string>("Team");
+
+                    b.Property<string>("email");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Player");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole")
