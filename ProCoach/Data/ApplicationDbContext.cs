@@ -13,6 +13,6 @@ namespace ProCoach.Data
             : base(options)
         {
         }
-        public DbSet<ProCoach.Data.Player> Player { get; set; }
+        public DbSet<ProCoach.Data.Players> Player { get; set; }
     }
 }

@@ -184,27 +184,27 @@ namespace ProCoach.Data.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("ProCoach.Data.Player", b =>
+            modelBuilder.Entity("ProCoach.Data.Players", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Clubname");
+                    b.Property<string>("Club_Name");
 
                     b.Property<string>("DOB");
 
-                    b.Property<int>("EmergencyContact");
+                    b.Property<string>("Email");
 
-                    b.Property<int>("Mobileno");
+                    b.Property<int>("Emergency_Contact");
+
+                    b.Property<int>("Mobile_Number");
 
                     b.Property<string>("Name");
 
                     b.Property<string>("Sports");
 
                     b.Property<string>("Team");
-
-                    b.Property<string>("email");
 
                     b.HasKey("Id");
 
