@@ -85,7 +85,7 @@ namespace ProCoach.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,DOB,email,Mobileno,EmergencyContact,Clubname,Sports,Team")] Players player)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,DOB,Email,Mobile_Number,Emergency_Contact,Club_Name,Sports,Team")] Players player)
         {
             if (id != player.Id)
             {
