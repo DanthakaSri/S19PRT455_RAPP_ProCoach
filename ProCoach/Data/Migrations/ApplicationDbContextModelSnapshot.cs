@@ -203,6 +203,27 @@ namespace ProCoach.Data.Migrations
                     b.ToTable("Club");
                 });
 
+            modelBuilder.Entity("ProCoach.Data.Coach", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Address");
+
+                    b.Property<string>("Dob");
+
+                    b.Property<string>("FirstName");
+
+                    b.Property<string>("LastName");
+
+                    b.Property<string>("Mobile");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Coach");
+                });
+
             modelBuilder.Entity("ProCoach.Data.Team", b =>
                 {
                     b.Property<int>("id")

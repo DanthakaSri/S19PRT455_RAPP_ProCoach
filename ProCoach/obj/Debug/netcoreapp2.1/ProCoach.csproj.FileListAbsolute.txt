@@ -153,3 +153,20 @@ C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.
 C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Clubs\Details.g.cshtml.cs
 C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Clubs\Edit.g.cshtml.cs
 C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Clubs\Index.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Clubs\Create.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Clubs\Delete.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Clubs\Details.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Clubs\Edit.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Clubs\Index.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Teams\Create.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Teams\Delete.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Teams\Details.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Teams\Edit.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Teams\Index.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Coaches\Create.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Coaches\Delete.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Coaches\Details.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Coaches\Edit.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Coaches\Index.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Index.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_AdminLayout.g.cshtml.cs
