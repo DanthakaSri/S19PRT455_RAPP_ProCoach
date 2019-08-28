@@ -14,5 +14,7 @@ namespace ProCoach.Data
         {
         }
         public DbSet<ProCoach.Data.Team> Team { get; set; }
+        public DbSet<ProCoach.Data.Club> Club { get; set; }
+        public DbSet<ProCoach.Data.Coach> Coach { get; set; }
     }
 }
