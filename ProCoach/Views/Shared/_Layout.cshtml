@@ -30,6 +30,8 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
+                @if (User.Identity.IsAuthenticated)
+                {
                     <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
@@ -37,8 +39,12 @@
                     <li><a asp-area="" asp-controller="Clubs" asp-action="Index">Club</a></li>
                     <li><a asp-area="" asp-controller="Coaches" asp-action="Index">Coach</a></li>
 
+                }
+                else
+                {
+                    <partial name="_LoginPartial" />
+                }
                 </ul>
-                <partial name="_LoginPartial" />
             </div>
         </div>
     </nav>

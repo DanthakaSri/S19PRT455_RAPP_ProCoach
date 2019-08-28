@@ -170,3 +170,4 @@ E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcore
 E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Coaches\Index.g.cshtml.cs
 E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Index.g.cshtml.cs
 E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_AdminLayout.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index - Copy.g.cshtml.cs
