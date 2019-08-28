@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\CDU works\\Software development Project\\ProCoachApp\\ProCoach\\ProCoach.csproj": {}
+    "D:\\prt455 project\\ProCoach\\ProCoach.csproj": {}
   },
   "projects": {
-    "E:\\CDU works\\Software development Project\\ProCoachApp\\ProCoach\\ProCoach.csproj": {
+    "D:\\prt455 project\\ProCoach\\ProCoach.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CDU works\\Software development Project\\ProCoachApp\\ProCoach\\ProCoach.csproj",
+        "projectUniqueName": "D:\\prt455 project\\ProCoach\\ProCoach.csproj",
         "projectName": "ProCoach",
-        "projectPath": "E:\\CDU works\\Software development Project\\ProCoachApp\\ProCoach\\ProCoach.csproj",
-        "packagesPath": "C:\\Users\\Danthaka Sri\\.nuget\\packages\\",
-        "outputPath": "E:\\CDU works\\Software development Project\\ProCoachApp\\ProCoach\\obj\\",
+        "projectPath": "D:\\prt455 project\\ProCoach\\ProCoach.csproj",
+        "packagesPath": "C:\\Users\\raj20\\.nuget\\packages\\",
+        "outputPath": "D:\\prt455 project\\ProCoach\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Danthaka Sri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\raj20\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
