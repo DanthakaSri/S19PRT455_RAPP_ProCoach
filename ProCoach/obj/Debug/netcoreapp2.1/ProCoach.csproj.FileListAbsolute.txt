@@ -1,0 +1,226 @@
+E:\CDU works\Software development Project\ProCoach\bin\Debug\netcoreapp2.1\ProCoach.deps.json
+E:\CDU works\Software development Project\ProCoach\bin\Debug\netcoreapp2.1\ProCoach.runtimeconfig.json
+E:\CDU works\Software development Project\ProCoach\bin\Debug\netcoreapp2.1\ProCoach.runtimeconfig.dev.json
+E:\CDU works\Software development Project\ProCoach\bin\Debug\netcoreapp2.1\ProCoach.dll
+E:\CDU works\Software development Project\ProCoach\bin\Debug\netcoreapp2.1\ProCoach.pdb
+E:\CDU works\Software development Project\ProCoach\bin\Debug\netcoreapp2.1\ProCoach.Views.dll
+E:\CDU works\Software development Project\ProCoach\bin\Debug\netcoreapp2.1\ProCoach.Views.pdb
+E:\CDU works\Software development Project\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.csprojAssemblyReference.cache
+E:\CDU works\Software development Project\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.csproj.CoreCompileInputs.cache
+E:\CDU works\Software development Project\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.RazorAssemblyInfo.cache
+E:\CDU works\Software development Project\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.RazorAssemblyInfo.cs
+E:\CDU works\Software development Project\ProCoach\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+E:\CDU works\Software development Project\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.AssemblyInfoInputs.cache
+E:\CDU works\Software development Project\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.AssemblyInfo.cs
+E:\CDU works\Software development Project\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.TagHelpers.input.cache
+E:\CDU works\Software development Project\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.TagHelpers.output.cache
+E:\CDU works\Software development Project\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.RazorCoreGenerate.cache
+E:\CDU works\Software development Project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.RazorTargetAssemblyInfo.cache
+E:\CDU works\Software development Project\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.RazorTargetAssemblyInfo.cs
+E:\CDU works\Software development Project\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.Views.pdb
+E:\CDU works\Software development Project\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.dll
+E:\CDU works\Software development Project\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.pdb
+E:\CDU works\Software development Project\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.csproj.CopyComplete
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\bin\Debug\netcoreapp2.1\ProCoach.deps.json
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\bin\Debug\netcoreapp2.1\ProCoach.runtimeconfig.json
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\bin\Debug\netcoreapp2.1\ProCoach.runtimeconfig.dev.json
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\bin\Debug\netcoreapp2.1\ProCoach.dll
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\bin\Debug\netcoreapp2.1\ProCoach.pdb
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\bin\Debug\netcoreapp2.1\ProCoach.Views.dll
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\bin\Debug\netcoreapp2.1\ProCoach.Views.pdb
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.csprojAssemblyReference.cache
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.csproj.CoreCompileInputs.cache
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.RazorAssemblyInfo.cache
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.RazorAssemblyInfo.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.AssemblyInfoInputs.cache
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.AssemblyInfo.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.TagHelpers.input.cache
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.TagHelpers.output.cache
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.RazorCoreGenerate.cache
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.RazorTargetAssemblyInfo.cache
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.RazorTargetAssemblyInfo.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.Views.pdb
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.dll
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.pdb
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.csproj.CopyComplete
+D:\ProCoach\ProCoach\bin\Debug\netcoreapp2.1\ProCoach.deps.json
+D:\ProCoach\ProCoach\bin\Debug\netcoreapp2.1\ProCoach.runtimeconfig.json
+D:\ProCoach\ProCoach\bin\Debug\netcoreapp2.1\ProCoach.runtimeconfig.dev.json
+D:\ProCoach\ProCoach\bin\Debug\netcoreapp2.1\ProCoach.dll
+D:\ProCoach\ProCoach\bin\Debug\netcoreapp2.1\ProCoach.pdb
+D:\ProCoach\ProCoach\bin\Debug\netcoreapp2.1\ProCoach.Views.dll
+D:\ProCoach\ProCoach\bin\Debug\netcoreapp2.1\ProCoach.Views.pdb
+D:\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.csprojAssemblyReference.cache
+D:\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.csproj.CoreCompileInputs.cache
+D:\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.RazorAssemblyInfo.cache
+D:\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.RazorAssemblyInfo.cs
+D:\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.AssemblyInfoInputs.cache
+D:\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.AssemblyInfo.cs
+D:\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.TagHelpers.input.cache
+D:\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.TagHelpers.output.cache
+D:\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.RazorCoreGenerate.cache
+D:\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+D:\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+D:\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+D:\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+D:\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+D:\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+D:\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+D:\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+D:\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.RazorTargetAssemblyInfo.cache
+D:\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.RazorTargetAssemblyInfo.cs
+D:\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.Views.pdb
+D:\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.dll
+D:\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.pdb
+D:\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.csproj.CopyComplete
+D:\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+D:\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Teams\Create.g.cshtml.cs
+D:\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Teams\Delete.g.cshtml.cs
+D:\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Teams\Details.g.cshtml.cs
+D:\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Teams\Edit.g.cshtml.cs
+D:\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Teams\Index.g.cshtml.cs
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\bin\Debug\netcoreapp2.1\ProCoach.deps.json
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\bin\Debug\netcoreapp2.1\ProCoach.runtimeconfig.json
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\bin\Debug\netcoreapp2.1\ProCoach.runtimeconfig.dev.json
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\bin\Debug\netcoreapp2.1\ProCoach.dll
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\bin\Debug\netcoreapp2.1\ProCoach.pdb
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\bin\Debug\netcoreapp2.1\ProCoach.Views.dll
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\bin\Debug\netcoreapp2.1\ProCoach.Views.pdb
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.csprojAssemblyReference.cache
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.csproj.CoreCompileInputs.cache
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.RazorAssemblyInfo.cache
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.RazorAssemblyInfo.cs
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.AssemblyInfoInputs.cache
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.AssemblyInfo.cs
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.TagHelpers.input.cache
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.TagHelpers.output.cache
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.RazorCoreGenerate.cache
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Teams\Create.g.cshtml.cs
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Teams\Delete.g.cshtml.cs
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Teams\Details.g.cshtml.cs
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Teams\Edit.g.cshtml.cs
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Teams\Index.g.cshtml.cs
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.RazorTargetAssemblyInfo.cache
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.RazorTargetAssemblyInfo.cs
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.Views.pdb
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.dll
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.pdb
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.csproj.CopyComplete
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Clubs\Create.g.cshtml.cs
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Clubs\Delete.g.cshtml.cs
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Clubs\Details.g.cshtml.cs
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Clubs\Edit.g.cshtml.cs
+C:\Users\Ashish Sahani\Desktop\ProCoach\ProCoach\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Clubs\Index.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Clubs\Create.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Clubs\Delete.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Clubs\Details.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Clubs\Edit.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Clubs\Index.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Teams\Create.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Teams\Delete.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Teams\Details.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Teams\Edit.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Teams\Index.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Coaches\Create.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Coaches\Delete.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Coaches\Details.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Coaches\Edit.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Coaches\Index.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Index.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_AdminLayout.g.cshtml.cs
+E:\CDU works\Software development Project\ProCoachApp\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index - Copy.g.cshtml.cs
+D:\prt455 project\ProCoach\bin\Debug\netcoreapp2.1\ProCoach.deps.json
+D:\prt455 project\ProCoach\bin\Debug\netcoreapp2.1\ProCoach.runtimeconfig.json
+D:\prt455 project\ProCoach\bin\Debug\netcoreapp2.1\ProCoach.runtimeconfig.dev.json
+D:\prt455 project\ProCoach\bin\Debug\netcoreapp2.1\ProCoach.dll
+D:\prt455 project\ProCoach\bin\Debug\netcoreapp2.1\ProCoach.pdb
+D:\prt455 project\ProCoach\bin\Debug\netcoreapp2.1\ProCoach.Views.dll
+D:\prt455 project\ProCoach\bin\Debug\netcoreapp2.1\ProCoach.Views.pdb
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.csprojAssemblyReference.cache
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.csproj.CoreCompileInputs.cache
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.RazorAssemblyInfo.cache
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.RazorAssemblyInfo.cs
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.AssemblyInfoInputs.cache
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.AssemblyInfo.cs
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.TagHelpers.input.cache
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.TagHelpers.output.cache
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.RazorCoreGenerate.cache
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Index.g.cshtml.cs
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Clubs\Create.g.cshtml.cs
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Clubs\Delete.g.cshtml.cs
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Clubs\Details.g.cshtml.cs
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Clubs\Edit.g.cshtml.cs
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Clubs\Index.g.cshtml.cs
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Coaches\Create.g.cshtml.cs
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Coaches\Delete.g.cshtml.cs
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Coaches\Details.g.cshtml.cs
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Coaches\Edit.g.cshtml.cs
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Coaches\Index.g.cshtml.cs
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index - Copy.g.cshtml.cs
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_AdminLayout.g.cshtml.cs
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Teams\Create.g.cshtml.cs
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Teams\Delete.g.cshtml.cs
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Teams\Details.g.cshtml.cs
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Teams\Edit.g.cshtml.cs
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\Teams\Index.g.cshtml.cs
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.RazorTargetAssemblyInfo.cache
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.RazorTargetAssemblyInfo.cs
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.Views.pdb
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.dll
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.pdb
+D:\prt455 project\ProCoach\obj\Debug\netcoreapp2.1\ProCoach.csproj.CopyComplete
