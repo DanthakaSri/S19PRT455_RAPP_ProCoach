@@ -9,58 +9,69 @@
     <section class="content">
 
         <h2>Coach</h2>
-
+        
         <p>
-            <a asp-action="Create" class="btn btn-success">Create New</a>
+            <a asp-action="Create" class="btn btn-primary">Create New</a>
         </p>
-        <table class="table">
-            <thead>
-            <tr>
-                <th>
-                    @Html.DisplayNameFor(model => model.FirstName)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.LastName)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Dob)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Mobile)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Address)
-                </th>
-                <th></th>
-            </tr>
-            </thead>
-            <tbody>
-            @foreach (var item in Model) {
-                <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.FirstName)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.LastName)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Dob)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Mobile)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Address)
-                    </td>
-                    <td>
-                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">Edit</a> |
-                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">Details</a> |
-                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
-                    </td>
-                </tr>
-            }
-            </tbody>
-        </table>
+
+        <div class="box">
+            <div class="box-header with-border">
+                <h3 class="box-title">Coach List</h3>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+                <table class="table table-bordered">
+                    <tr>
+                        <th >First Name</th>
+                        <th>Last Name</th>
+                        <th>DOB</th>
+                        <th>Mobile</th>
+                        <th >Address</th>
+                        <th ></th>
+                    </tr>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.FirstName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.LastName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Dob)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Mobile)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Address)
+                            </td>
+                            <td >
+                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">Edit</a> |
+                                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">Details</a> |
+                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                   
+                </table>
+            </div>
+            <!-- /.box-body -->
+            <div class="box-footer clearfix">
+               <!-- <ul class="pagination pagination-sm no-margin pull-right">
+                   <li><a href="#">&laquo;</a></li>
+                   <li><a href="#">1</a></li>
+                   <li><a href="#">2</a></li>
+                   <li><a href="#">3</a></li>
+                   <li><a href="#">&raquo;</a></li>
+               </ul>-->
+            </div>
+        </div>
+        <!-- /.box -->
+
+
+
 
     </section>
 
