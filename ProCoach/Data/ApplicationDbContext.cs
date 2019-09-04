@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using ProCoach.Data;
 
 namespace ProCoach.Data
 {
@@ -13,8 +12,5 @@ namespace ProCoach.Data
             : base(options)
         {
         }
-        public DbSet<ProCoach.Data.Team> Team { get; set; }
-        public DbSet<ProCoach.Data.Club> Club { get; set; }
-        public DbSet<ProCoach.Data.Coach> Coach { get; set; }
     }
 }
