@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace ProCoach.Data
 {
-    public class Players
+    public class Player
     {
         public int Id { get; set; }
         public string FirstName { get; set; }
