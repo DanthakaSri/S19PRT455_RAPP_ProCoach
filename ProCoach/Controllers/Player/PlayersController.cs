@@ -7,24 +7,24 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ProCoach.Data;
 
-namespace ProCoach.Controllers
+namespace ProCoach.Controllers.Player
 {
-    public class PlayerController : Controller
+    public class PlayersController : Controller
     {
         private readonly ApplicationDbContext _context;
 
-        public PlayerController(ApplicationDbContext context)
+        public PlayersController(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        // GET: Player
+        // GET: Players
         public async Task<IActionResult> Index()
         {
             return View(await _context.Player.ToListAsync());
         }
 
-        // GET: Player/Details/5
+        // GET: Players/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -32,39 +32,39 @@ namespace ProCoach.Controllers
                 return NotFound();
             }
 
-            var Player = await _context.Player
+            var player = await _context.Player
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (Player == null)
+            if (player == null)
             {
                 return NotFound();
             }
 
-            return View(Player);
+            return View(player);
         }
 
-        // GET: Player/Create
+        // GET: Players/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Player/Create
+        // POST: Players/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,FirstName,LastName,Dob,Mobile_Number,Club_Name,Team,Game_Type,Address,Email")] Player Player)
+        public async Task<IActionResult> Create([Bind("Id,FirstName,LastName,Dob,Mobile_Number,Club_Name,Team,Game_Type,Address,Email")] Data.Player player)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(Player);
+                _context.Add(player);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(Player);
+            return View(player);
         }
 
-        // GET: Player/Edit/5
+        // GET: Players/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -72,22 +72,22 @@ namespace ProCoach.Controllers
                 return NotFound();
             }
 
-            var Player = await _context.Player.FindAsync(id);
-            if (Player == null)
+            var player = await _context.Player.FindAsync(id);
+            if (player == null)
             {
                 return NotFound();
             }
-            return View(Player);
+            return View(player);
         }
 
-        // POST: Player/Edit/5
+        // POST: Players/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,FirstName,LastName,Dob,Mobile_Number,Club_Name,Team,Game_Type,Address,Email")] Player Player)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,FirstName,LastName,Dob,Mobile_Number,Club_Name,Team,Game_Type,Address,Email")] Data.Player player)
         {
-            if (id != Player.Id)
+            if (id != player.Id)
             {
                 return NotFound();
             }
@@ -96,12 +96,12 @@ namespace ProCoach.Controllers
             {
                 try
                 {
-                    _context.Update(Player);
+                    _context.Update(player);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!PlayerExists(Player.Id))
+                    if (!PlayerExists(player.Id))
                     {
                         return NotFound();
                     }
@@ -112,10 +112,10 @@ namespace ProCoach.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(Player);
+            return View(player);
         }
 
-        // GET: Player/Delete/5
+        // GET: Players/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -123,23 +123,23 @@ namespace ProCoach.Controllers
                 return NotFound();
             }
 
-            var Player = await _context.Player
+            var player = await _context.Player
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (Player == null)
+            if (player == null)
             {
                 return NotFound();
             }
 
-            return View(Player);
+            return View(player);
         }
 
-        // POST: Player/Delete/5
+        // POST: Players/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var Player = await _context.Player.FindAsync(id);
-            _context.Player.Remove(Player);
+            var player = await _context.Player.FindAsync(id);
+            _context.Player.Remove(player);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
