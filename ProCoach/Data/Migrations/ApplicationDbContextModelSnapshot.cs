@@ -3,17 +3,15 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ProCoach.Data;
 
 namespace ProCoach.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20190904093136_ProCoach_player")]
-    partial class ProCoach_player
+    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
     {
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -253,6 +251,23 @@ namespace ProCoach.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Player");
+                });
+
+            modelBuilder.Entity("ProCoach.Data.PracticeSession", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Address");
+
+                    b.Property<int>("Coach_id");
+
+                    b.Property<int>("Team_id");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("PracticeSession");
                 });
 
             modelBuilder.Entity("ProCoach.Data.Team", b =>
