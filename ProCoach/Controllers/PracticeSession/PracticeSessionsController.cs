@@ -7,24 +7,24 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ProCoach.Data;
 
-namespace ProCoach.Controllers.NewFolder
+namespace ProCoach.Controllers.PracticeSession
 {
-    public class practice_sessionController : Controller
+    public class PracticeSessionsController : Controller
     {
         private readonly ApplicationDbContext _context;
 
-        public practice_sessionController(ApplicationDbContext context)
+        public PracticeSessionsController(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        // GET: practice_session
+        // GET: PracticeSessions
         public async Task<IActionResult> Index()
         {
-            return View(await _context.practice_session.ToListAsync());
+            return View(await _context.PracticeSession.ToListAsync());
         }
 
-        // GET: practice_session/Details/5
+        // GET: PracticeSessions/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -32,39 +32,39 @@ namespace ProCoach.Controllers.NewFolder
                 return NotFound();
             }
 
-            var practice_session = await _context.practice_session
-                .FirstOrDefaultAsync(m => m.id == id);
-            if (practice_session == null)
+            var practiceSession = await _context.PracticeSession
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (practiceSession == null)
             {
                 return NotFound();
             }
 
-            return View(practice_session);
+            return View(practiceSession);
         }
 
-        // GET: practice_session/Create
+        // GET: PracticeSessions/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: practice_session/Create
+        // POST: PracticeSessions/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("id,team_id,coach_id,address")] practice_session practice_session)
+        public async Task<IActionResult> Create([Bind("Id,Team_id,Coach_id,Address")] Data.PracticeSession practiceSession)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(practice_session);
+                _context.Add(practiceSession);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(practice_session);
+            return View(practiceSession);
         }
 
-        // GET: practice_session/Edit/5
+        // GET: PracticeSessions/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -72,22 +72,22 @@ namespace ProCoach.Controllers.NewFolder
                 return NotFound();
             }
 
-            var practice_session = await _context.practice_session.FindAsync(id);
-            if (practice_session == null)
+            var practiceSession = await _context.PracticeSession.FindAsync(id);
+            if (practiceSession == null)
             {
                 return NotFound();
             }
-            return View(practice_session);
+            return View(practiceSession);
         }
 
-        // POST: practice_session/Edit/5
+        // POST: PracticeSessions/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("id,team_id,coach_id,address")] practice_session practice_session)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Team_id,Coach_id,Address")] Data.PracticeSession practiceSession)
         {
-            if (id != practice_session.id)
+            if (id != practiceSession.Id)
             {
                 return NotFound();
             }
@@ -96,12 +96,12 @@ namespace ProCoach.Controllers.NewFolder
             {
                 try
                 {
-                    _context.Update(practice_session);
+                    _context.Update(practiceSession);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!practice_sessionExists(practice_session.id))
+                    if (!PracticeSessionExists(practiceSession.Id))
                     {
                         return NotFound();
                     }
@@ -112,10 +112,10 @@ namespace ProCoach.Controllers.NewFolder
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(practice_session);
+            return View(practiceSession);
         }
 
-        // GET: practice_session/Delete/5
+        // GET: PracticeSessions/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -123,30 +123,30 @@ namespace ProCoach.Controllers.NewFolder
                 return NotFound();
             }
 
-            var practice_session = await _context.practice_session
-                .FirstOrDefaultAsync(m => m.id == id);
-            if (practice_session == null)
+            var practiceSession = await _context.PracticeSession
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (practiceSession == null)
             {
                 return NotFound();
             }
 
-            return View(practice_session);
+            return View(practiceSession);
         }
 
-        // POST: practice_session/Delete/5
+        // POST: PracticeSessions/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var practice_session = await _context.practice_session.FindAsync(id);
-            _context.practice_session.Remove(practice_session);
+            var practiceSession = await _context.PracticeSession.FindAsync(id);
+            _context.PracticeSession.Remove(practiceSession);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool practice_sessionExists(int id)
+        private bool PracticeSessionExists(int id)
         {
-            return _context.practice_session.Any(e => e.id == id);
+            return _context.PracticeSession.Any(e => e.Id == id);
         }
     }
 }
