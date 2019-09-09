@@ -1,0 +1,39 @@
+﻿@model ProCoach.Data.practice_session
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>practice_session</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.team_id)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.team_id)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.coach_id)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.coach_id)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.address)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.address)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="id" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>
