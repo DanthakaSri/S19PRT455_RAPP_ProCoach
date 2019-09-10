@@ -7,67 +7,70 @@
 
 
 <section class="content">
+    <p>
+        <a class="btn btn-primary" href="/Teams/Create">Create New</a>
+    </p>
+    <div class="box">
+        <div class="box-header with-border">
+            <h3 class="box-title">Team List</h3>
+        </div>
+    </div>
+        
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.team_name)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.email)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.club)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.sport)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.coaches)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.competition)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.team_name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.email)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.club)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.sport)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.coaches)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.competition)
+                        </td>
+                        <td>
+                            <a asp-action="Edit" class="btn btn-primary" asp-route-id="@item.id">Edit</a> 
+                            <a asp-action="Details" class=" btn btn-info" asp-route-id="@item.id">Details</a> 
+                            <a asp-action="Delete" class=" btn btn-danger" asp-route-id="@item.id">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+   
+</section>
 
-
- 
-<h2>Team</h2>
-
-<p>
-    <a asp-action="Create" class="btn btn-success">Create New Team</a>
-    <!--    <button type="button" class="btn btn-primary">Create New</button>-->
-</p>
-<table class="table table-striped">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.team_name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.email)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.club)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.sport)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.coaches)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.competition)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.team_name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.email)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.club)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.sport)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.coaches)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.competition)
-            </td>
-            <td>
-                <a asp-action="Edit" class="btn btn-primary" asp-route-id="@item.id">Edit</a> |
-                <a asp-action="Details" class=" btn btn-info" asp-route-id="@item.id">Details</a> |
-                <a asp-action="Delete" class=" btn btn-danger" asp-route-id="@item.id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
-    </section>
