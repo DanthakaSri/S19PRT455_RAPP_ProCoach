@@ -19,6 +19,7 @@ namespace ProCoach.Data
         public DbSet<ProCoach.Data.Coach> Coach { get; set; }
         public DbSet<ProCoach.Data.Player> Player { get; set; }
         public DbSet<ProCoach.Data.PracticeSession> PracticeSession { get; set; }
+        public DbSet<ProCoach.Data.Schedule> Schedule { get; set; }
 
         //public DbSet<ProCoach.Data.practice_session> Practice_Session { get; set; }
 

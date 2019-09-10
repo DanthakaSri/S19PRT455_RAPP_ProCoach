@@ -7,6 +7,7 @@ namespace ProCoach.Data
 {
     public class Schedule
     {
+        public int Id { get; set; }
         public int TeamId { get; set; }
 
         public int CoachId { get; set; }
