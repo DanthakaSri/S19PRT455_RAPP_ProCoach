@@ -1,56 +1,87 @@
 ﻿@model ProCoach.Data.Team
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Team Details";
     Layout = "_AdminLayout";
 }
-    <section class="content">
-        <h2>Details</h2>
+<section class="content">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="box">
+                <div class="box-header">
+                    <h3 class="box-title"><i class="fa fa-info-circle"></i> @ViewData["Title"]</h3>
+                </div>
+                <div class="box-body no-padding">
+                    <table class="table table-striped">
+                        <tbody>
+                            <tr>
 
-        <div>
-            <h4>Team</h4>
-            <hr />
-            <dl class="dl-horizontal">
-                <dt>
-                    @Html.DisplayNameFor(model => model.team_name)
-                </dt>
-                <dd>
-                    @Html.DisplayFor(model => model.team_name)
-                </dd>
-                <dt>
-                    @Html.DisplayNameFor(model => model.email)
-                </dt>
-                <dd>
-                    @Html.DisplayFor(model => model.email)
-                </dd>
-                <dt>
-                    @Html.DisplayNameFor(model => model.club)
-                </dt>
-                <dd>
-                    @Html.DisplayFor(model => model.club)
-                </dd>
-                <dt>
-                    @Html.DisplayNameFor(model => model.sport)
-                </dt>
-                <dd>
-                    @Html.DisplayFor(model => model.sport)
-                </dd>
-                <dt>
-                    @Html.DisplayNameFor(model => model.coaches)
-                </dt>
-                <dd>
-                    @Html.DisplayFor(model => model.coaches)
-                </dd>
-                <dt>
-                    @Html.DisplayNameFor(model => model.competition)
-                </dt>
-                <dd>
-                    @Html.DisplayFor(model => model.competition)
-                </dd>
-            </dl>
+                                <td> <i class="fa fa-circle-o"></i></td>
+                                <td><b>@Html.DisplayNameFor(model => model.team_name)</b></td>
+                                <td>
+                                    @Html.DisplayFor(model => model.team_name)
+                                </td>
+
+                            </tr>
+                            <tr>
+
+                                <td> <i class="fa fa-circle-o"></i></td>
+                                <td><b>@Html.DisplayNameFor(model => model.email)</b></td>
+                                <td>
+                                    @Html.DisplayFor(model => model.email)
+                                </td>
+
+                            </tr>
+                            <tr>
+
+                                <td> <i class="fa fa-circle-o"></i></td>
+                                <td><b>@Html.DisplayNameFor(model => model.club)</b></td>
+                                <td>
+                                    @Html.DisplayFor(model => model.club)
+                                </td>
+
+                            </tr>
+                            <tr>
+
+                                <td> <i class="fa fa-circle-o"></i></td>
+                                <td><b>@Html.DisplayNameFor(model => model.sport)</b></td>
+                                <td>
+                                    @Html.DisplayNameFor(model => model.sport)
+                                </td>
+
+                            </tr>
+                            <tr>
+
+                                <td> <i class="fa fa-circle-o"></i></td>
+                                <td><b>@Html.DisplayNameFor(model => model.coaches)</b></td>
+                                <td>
+                                    @Html.DisplayNameFor(model => model.coaches)
+                                </td>
+
+                            </tr>
+                            <tr>
+
+                                <td> <i class="fa fa-circle-o"></i></td>
+                                <td><b> @Html.DisplayNameFor(model => model.competition)</b></td>
+                                <td>
+                                    @Html.DisplayNameFor(model => model.competition)
+                                </td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
         </div>
-        <div>
-            <a asp-action="Edit" asp-route-id="@Model.id">Edit</a> |
-            <a asp-action="Index">Back to List</a>
-        </div>
-        </section>
+    </div>
+  
+<div class="btn-group" role="group">
+    <a asp-action="Edit" asp-route-id="@Model.id" class="btn btn-success">Edit</a> |
+    <a asp-action="Index" class="btn btn-success">Back to List</a>
+</div>
+    </section>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
