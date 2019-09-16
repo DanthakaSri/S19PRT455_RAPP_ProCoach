@@ -24,6 +24,8 @@ namespace ProCoach.Data
         [DataType(DataType.Date)]
         [Required]
         public  string Dob { get; set; }
+
+        [StringLength(10, MinimumLength = 10)]
         [Display(Name = "Mobile Number")]
         [DataType(DataType.PhoneNumber)]
         [Required]
