@@ -1,14 +1,14 @@
 ﻿@model IEnumerable<ProCoach.Data.Coach>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Coach";
     Layout = "_AdminLayout";
 }
 
 
     <section class="content">
 
-        <h2>Coach</h2>
+        
         
         <p>
             <a asp-action="Create" class="btn btn-primary">Create New</a>
@@ -48,9 +48,11 @@
                                 @Html.DisplayFor(modelItem => item.Address)
                             </td>
                             <td >
-                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">Edit</a> |
-                                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">Details</a> |
-                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                                <div class="btn-group" role="group">
+                                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">Edit</a> 
+                                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">Details</a> 
+                                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                                </div>
                             </td>
                         </tr>
                     }

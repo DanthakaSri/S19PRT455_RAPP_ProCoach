@@ -1,50 +1,72 @@
 ﻿@model ProCoach.Data.Coach
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Coach information";
     Layout = "_AdminLayout";
 }
-    <section class="content">
-        <h2>Details</h2>
+<section class="content">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="box">
+            <div class="box-header">
+                <h3 class="box-title"><i class="fa fa-info-circle"></i> @ViewData["Title"]</h3>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body no-padding">
+                <table class="table table-striped">
+                    <tbody>
 
-        <div>
-            <h4>Coach</h4>
-            <hr />
-            <dl class="dl-horizontal">
-                <dt>
-                    @Html.DisplayNameFor(model => model.FirstName)
-                </dt>
-                <dd>
-                    @Html.DisplayFor(model => model.FirstName)
-                </dd>
-                <dt>
-                    @Html.DisplayNameFor(model => model.LastName)
-                </dt>
-                <dd>
-                    @Html.DisplayFor(model => model.LastName)
-                </dd>
-                <dt>
-                    @Html.DisplayNameFor(model => model.Dob)
-                </dt>
-                <dd>
-                    @Html.DisplayFor(model => model.Dob)
-                </dd>
-                <dt>
-                    @Html.DisplayNameFor(model => model.Mobile)
-                </dt>
-                <dd>
-                    @Html.DisplayFor(model => model.Mobile)
-                </dd>
-                <dt>
-                    @Html.DisplayNameFor(model => model.Address)
-                </dt>
-                <dd>
-                    @Html.DisplayFor(model => model.Address)
-                </dd>
-            </dl>
+                        <tr>
+                            <td> <i class="fa fa-circle-o"></i></td>
+                            <td><b>@Html.DisplayNameFor(model => model.FirstName)</b></td>
+                            <td>
+                                @Html.DisplayFor(model => model.FirstName)
+                            </td>
+                        </tr>
+                       <tr>
+                            <td><i class="fa fa-circle-o"></i></td>
+                            <td><b>@Html.DisplayNameFor(model => model.LastName)</b></td>
+                            <td>
+                                @Html.DisplayFor(model => model.LastName)
+                            </td>
+                        </tr>
+                       <tr>
+                            <td><i class="fa fa-circle-o"></i></td>
+                            <td><b>@Html.DisplayNameFor(model => model.Dob)</b></td>
+                            <td>
+                                @Html.DisplayFor(model => model.Dob)
+                            </td>
+                        </tr>
+                       <tr>
+                            <td><i class="fa fa-circle-o"></i></td>
+                            <td><b>@Html.DisplayNameFor(model => model.Mobile)</b></td>
+                            <td>
+                                @Html.DisplayFor(model => model.Mobile)
+                            </td>
+                        </tr>
+                       <tr>
+                            <td><i class="fa fa-circle-o"></i></td>
+                            <td><b>@Html.DisplayNameFor(model => model.Address)</b></td>
+                            <td>
+                                @Html.DisplayFor(model => model.Address)
+                            </td>
+                        </tr>
+                       
+                    </tbody>
+                </table>
+            </div>
+            <!-- /.box-body -->
         </div>
-        <div>
-            <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
-            <a asp-action="Index">Back to List</a>
+    </div>
         </div>
-        </section>
+
+
+    <div class="btn-group" role="group">
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Edit</a> 
+        <a asp-action="Index" class="btn btn-success">Back to List</a>
+    </div>
+</section>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
