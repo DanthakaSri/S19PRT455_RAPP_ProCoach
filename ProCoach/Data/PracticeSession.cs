@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
+using System.Web;
 
 namespace ProCoach.Data
 {
     public class PracticeSession
     {
+        [Display(Name = "PS")]
         public int Id { get; set; }
 
         
