@@ -53,7 +53,7 @@ namespace ProCoach.Controllers.Coach
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,FirstName,LastName,Dob,Mobile,Address")] Data.Coach coach)
+        public async Task<IActionResult> Create([Bind("Id,FirstName,LastName,Dob,Mobile,Address")] Models.Coach coach)
         {
             if (ModelState.IsValid)
             {
@@ -85,7 +85,7 @@ namespace ProCoach.Controllers.Coach
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,FirstName,LastName,Dob,Mobile,Address")] Data.Coach coach)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,FirstName,LastName,Dob,Mobile,Address")] Models.Coach coach)
         {
             if (id != coach.Id)
             {

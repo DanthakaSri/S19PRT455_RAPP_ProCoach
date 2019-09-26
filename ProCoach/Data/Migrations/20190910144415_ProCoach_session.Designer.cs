@@ -75,7 +75,7 @@ namespace ProCoach.Data.Migrations
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken();
 
-                    b.Property<string>("Email")
+                    b.Property<string>("email")
                         .HasMaxLength(256);
 
                     b.Property<bool>("EmailConfirmed");
@@ -186,7 +186,7 @@ namespace ProCoach.Data.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("ProCoach.Data.Club", b =>
+            modelBuilder.Entity("ProCoach.Data.club", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
@@ -196,13 +196,13 @@ namespace ProCoach.Data.Migrations
 
                     b.Property<string>("Phone");
 
-                    b.Property<string>("Sport");
+                    b.Property<string>("sport");
 
                     b.Property<string>("Website");
 
                     b.HasKey("ID");
 
-                    b.ToTable("Club");
+                    b.ToTable("club");
                 });
 
             modelBuilder.Entity("ProCoach.Data.Coach", b =>
@@ -238,7 +238,7 @@ namespace ProCoach.Data.Migrations
 
                     b.Property<string>("Dob");
 
-                    b.Property<string>("Email");
+                    b.Property<string>("email");
 
                     b.Property<string>("FirstName");
 
@@ -278,7 +278,7 @@ namespace ProCoach.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("CoachId");
+                    b.Property<int>("coaches");
 
                     b.Property<DateTime>("Date");
 

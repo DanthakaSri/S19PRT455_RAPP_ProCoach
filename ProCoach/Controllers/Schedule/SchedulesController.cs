@@ -53,7 +53,7 @@ namespace ProCoach.Controllers.Schedule
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,TeamId,CoachId,Date,Time")] Data.Schedule schedule)
+        public async Task<IActionResult> Create([Bind("Id,TeamId,coaches,Date,Time")] Models.Schedule schedule)
         {
             if (ModelState.IsValid)
             {
@@ -85,7 +85,7 @@ namespace ProCoach.Controllers.Schedule
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,TeamId,CoachId,Date,Time")] Data.Schedule schedule)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,TeamId,coaches,Date,Time")] Models.Schedule schedule)
         {
             if (id != schedule.Id)
             {

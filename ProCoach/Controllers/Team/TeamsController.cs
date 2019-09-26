@@ -1,11 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ProCoach.Data;
+using ProCoach.Models;
 
 namespace ProCoach.Controllers
 {
@@ -45,6 +45,7 @@ namespace ProCoach.Controllers
         // GET: Teams/Create
         public IActionResult Create()
         {
+            ViewBag.coaches = _context.Coach.ToList();
             return View();
         }
 
@@ -53,7 +54,7 @@ namespace ProCoach.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("id,team_name,email,club,sport,coaches,competition")] Team team)
+        public async Task<IActionResult> Create([Bind("id,team_name,email,club,sport,coaches,competition")] Models.Team team)
         {
             if (ModelState.IsValid)
             {
@@ -85,7 +86,7 @@ namespace ProCoach.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("id,team_name,email,club,sport,coaches,competition")] Team team)
+        public async Task<IActionResult> Edit(int id, [Bind("id,team_name,email,club,sport,coaches,competition")] Models.Team team)
         {
             if (id != team.id)
             {
@@ -148,5 +149,8 @@ namespace ProCoach.Controllers
         {
             return _context.Team.Any(e => e.id == id);
         }
+
+        
+
     }
 }

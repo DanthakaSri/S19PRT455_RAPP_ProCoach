@@ -8,7 +8,7 @@ namespace ProCoach.Data.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Club",
+                name: "club",
                 columns: table => new
                 {
                     ID = table.Column<int>(nullable: false)
@@ -27,7 +27,7 @@ namespace ProCoach.Data.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Club");
+                name: "club");
         }
     }
 }

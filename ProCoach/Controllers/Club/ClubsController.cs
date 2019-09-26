@@ -53,7 +53,7 @@ namespace ProCoach.Controllers.Club
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,Sport,Address,Phone,Website")] Data.Club club)
+        public async Task<IActionResult> Create([Bind("ID,sport,Address,Phone,Website")] Models.Club club)
         {
             if (ModelState.IsValid)
             {
@@ -85,7 +85,7 @@ namespace ProCoach.Controllers.Club
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,Sport,Address,Phone,Website")] Data.Club club)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,sport,Address,Phone,Website")] Models.Club club)
         {
             if (id != club.ID)
             {
