@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using DAL;
+
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -13,12 +13,12 @@ namespace ProCoach.Controllers.Player
     public class PlayersController : Controller
     {
         private readonly ApplicationDbContext _context;
-        private readonly ApplicationDbContext_DAL _contextDal;
+        
 
-        public PlayersController(ApplicationDbContext context, ApplicationDbContext_DAL contextDal)
+        public PlayersController(ApplicationDbContext context)
         {
             _context = context;
-            _contextDal = contextDal;
+           
         }
 
         // GET: Players
