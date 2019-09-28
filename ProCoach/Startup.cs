@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using DAL;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Hosting;
@@ -38,14 +37,6 @@ namespace ProCoach
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
-
-
-
-            services.AddDbContext<ApplicationDbContext_DAL>(options =>
-                options.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")
-                    , sqlServerOptions => sqlServerOptions.MigrationsAssembly("DAL")
-                    ));
 
 
             services.AddDefaultIdentity<IdentityUser>()

@@ -28,7 +28,7 @@ namespace ProCoach.Models
 
         [StringLength(60, MinimumLength = 3)]
         [Required]
-        public string  coaches { get; set; }
+        public int  coaches { get; set; }
         
         [StringLength(60, MinimumLength = 3)]
         [Required]
