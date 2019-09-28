@@ -7,7 +7,7 @@ namespace ProCoach.Models
         public int Id { get; set; }
 
         [StringLength(60, MinimumLength = 3)]
-        [Display(Name = "FirstName")]
+        [Display(Name = "First Name")]
         [Required]
 
         public string FirstName { get; set; }
