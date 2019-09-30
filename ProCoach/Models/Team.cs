@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace ProCoach.Data
+namespace ProCoach.Models
 {
     public class Team
     {
+
         public int id { get; set; }
 
         [StringLength(10, MinimumLength = 3)]
@@ -31,14 +29,15 @@ namespace ProCoach.Data
         [StringLength(60, MinimumLength = 3)]
         [Required]
         public string  coaches { get; set; }
-
+        
         [StringLength(60, MinimumLength = 3)]
         [Required]
         public string competition { get; set; }
 
-       
-
+        public virtual ICollection<Coach> Coaches{ get; set; }
         
+
+
 
     }
 }

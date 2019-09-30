@@ -15,16 +15,16 @@
     <environment include="Development">
 
         <!-- Bootstrap 3.3.7 -->
-        <link rel="stylesheet" href="~/admin/components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/admin/components/bootstrap/dist/css/bootstrap.min.css">
         <!-- Font Awesome -->
-        <link rel="stylesheet" href="~/admin/components/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/admin/components/font-awesome/css/font-awesome.min.css">
         <!-- Ionicons -->
-        <link rel="stylesheet" href="~/admin/components/Ionicons/css/ionicons.min.css">
+        <link rel="stylesheet" href="/admin/components/Ionicons/css/ionicons.min.css">
         <!-- Theme style -->
-        <link rel="stylesheet" href="~/admin/dist/css/AdminLTE.min.css">
+        <link rel="stylesheet" href="/admin/dist/css/AdminLTE.min.css">
         <!-- AdminLTE Skins. Choose a skin from the css/skins
         folder instead of downloading all of them to reduce the load. -->
-        <link rel="stylesheet" href="~/admin/dist/css/skins/_all-skins.min.css">
+        <link rel="stylesheet" href="/admin/dist/css/skins/_all-skins.min.css">
     </environment>
 
 
@@ -36,7 +36,9 @@
     <![endif]-->
     <!-- Google Font -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
-</head>
+
+    @RenderSection("Header", required: false)
+    </head>
 <body class="hold-transition skin-blue sidebar-mini">
     <!-- Site wrapper -->
     <div class="wrapper">
@@ -269,17 +271,18 @@
     <environment include="Development">
 
         <!-- jQuery 3 -->
-        <script src="~/admin/components/jquery/dist/jquery.min.js"></script>
+        <script src="/admin/components/jquery/dist/jquery.min.js"></script>
         <!-- Bootstrap 3.3.7 -->
-        <script src="~/admin/components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="/admin/components/bootstrap/dist/js/bootstrap.min.js"></script>
         <!-- SlimScroll -->
-        <script src="~/admin/components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+        <script src="/admin/components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
         <!-- FastClick -->
-        <script src="~/admin/components/fastclick/lib/fastclick.js"></script>
+        <script src="/admin/components/fastclick/lib/fastclick.js"></script>
         <!-- AdminLTE App -->
-        <script src="~/admin/dist/js/adminlte.min.js"></script>
+        <script src="/admin/dist/js/adminlte.min.js"></script>
         <!-- AdminLTE for demo purposes -->
-        <script src="~/admin/dist/js/demo.js"></script>
+        <script src="/admin/dist/js/demo.js"></script>
+        <script src="/js/site.js"></script>
     </environment>
 
 <script>

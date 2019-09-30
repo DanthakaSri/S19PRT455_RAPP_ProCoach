@@ -1,8 +1,11 @@
 ﻿@page
 @model LoginModel
 
+
 @{
     ViewData["Title"] = "Log in";
+        Layout = "_AdminLayout";
+
 }
 
 <h2>@ViewData["Title"]</h2>
@@ -76,7 +79,7 @@
                             <!-- /.col -->
 
 
-                            <!--   <div class="social-auth-links text-right">
+                              <div class="social-auth-links text-right">
           <p>- OR -</p>
           <a href="#" class="btn btn-block btn-social btn-facebook btn-flat">
               <i  class="fa fa-facebook"></i> Sign in using Facebook</a>

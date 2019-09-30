@@ -1,13 +1,11 @@
-﻿@model ProCoach.Data.Schedule
+﻿@model Schedule
 
 @{
     ViewData["Title"] = "Edit";
+    Layout = "_AdminLayout";
 }
 
-<h2>Edit</h2>
-
-<h4>Schedule</h4>
-<hr />
+<section class="content">
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Edit">
@@ -44,3 +42,4 @@
     <a asp-action="Index">Back to List</a>
 </div>
 
+</section>

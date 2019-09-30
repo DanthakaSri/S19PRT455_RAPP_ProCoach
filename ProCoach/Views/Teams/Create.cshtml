@@ -1,4 +1,4 @@
-﻿@model ProCoach.Data.Team
+﻿@model Team
 
 @{
     ViewData["Title"] = "Create";
@@ -41,7 +41,10 @@
                 </div>
                 <div class="form-group">
                     <label asp-for="coaches" class="control-label"></label>
-                    <input asp-for="coaches" class="form-control" />
+         
+                    <select asp-for="coaches" class="form-control" asp-items="@(new SelectList(ViewBag.coaches, "Id", "FirstName"))">
+                   <option value="0">Please Select coach</option>
+                        </select>
                     <span asp-validation-for="coaches" class="text-danger"></span>
                 </div>
                 <div class="form-group">

@@ -53,7 +53,7 @@ namespace ProCoach.Controllers.PracticeSession
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Team_id,Coach_id,Address")] Data.PracticeSession practiceSession)
+        public async Task<IActionResult> Create([Bind("Id,Team_id,Coach_id,Address")] Models.PracticeSession practiceSession)
         {
             if (ModelState.IsValid)
             {
@@ -85,7 +85,7 @@ namespace ProCoach.Controllers.PracticeSession
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Team_id,Coach_id,Address")] Data.PracticeSession practiceSession)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Team_id,Coach_id,Address")] Models.PracticeSession practiceSession)
         {
             if (id != practiceSession.Id)
             {

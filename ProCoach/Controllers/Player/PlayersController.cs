@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -12,10 +13,12 @@ namespace ProCoach.Controllers.Player
     public class PlayersController : Controller
     {
         private readonly ApplicationDbContext _context;
+        
 
         public PlayersController(ApplicationDbContext context)
         {
             _context = context;
+           
         }
 
         // GET: Players
@@ -53,7 +56,7 @@ namespace ProCoach.Controllers.Player
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,FirstName,LastName,Dob,Mobile_Number,Club_Name,Team,Game_Type,Address,Email")] Data.Player player)
+        public async Task<IActionResult> Create([Bind("Id,FirstName,LastName,Dob,Mobile_Number,Club_Name,Team,Game_Type,Address,email")] Models.Player player)
         {
             if (ModelState.IsValid)
             {
@@ -85,7 +88,7 @@ namespace ProCoach.Controllers.Player
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,FirstName,LastName,Dob,Mobile_Number,Club_Name,Team,Game_Type,Address,Email")] Data.Player player)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,FirstName,LastName,Dob,Mobile_Number,Club_Name,Team,Game_Type,Address,email")] Models.Player player)
         {
             if (id != player.Id)
             {
