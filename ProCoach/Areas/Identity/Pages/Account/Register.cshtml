@@ -3,22 +3,41 @@
 @{
     ViewData["Title"] = "Register New Account";
 
-    <!--  Layout = "_AdminLayout"-->;
+    Layout = "_HomeIndexLayout";
+
 }
 
-<section class="content">
-    <div class="register-box-body">
-        <div class="box box-primary">
-            <h3 class="box-title">Register New Account</h3>
-            <div class="box-header with-border">
-            </div>
-            <div class="row">
-                <div class="col-md-6">
+@section header {
+
+
+    <link rel="stylesheet" href="~/admin/components/bootstrap/dist/css/bootstrap-theme.min.css">
+    Font Awesome
+    <link rel="stylesheet" href="~/admin/components/font-awesome/css/font-awesome.css">
+    Ionicons
+    <link rel="stylesheet" href="~/admin/components/Ionicons/css/ionicons.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="~/admin/dist/css/AdminLTE.css">
+    <!-- iCheck -->
+    <link rel="stylesheet" href="~/admin/components/iCheck/icheck.min.js">
+
+<style>
+    .login-box, .register-box {
+    width: 500px;
+    margin: 7% auto;
+}
+</style>
+}
+
+@*<section class="content">*@
+    <body class="hold-transition register-page">
+        <div class="register-box">
+            <div class="register-box-body">
+                <p class="login-box-msg">Register a new membership</p>
+                <div class="col-md-12">
                     <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
-                        <!-- <h4>Create a new account.</h4> -->
-                        <hr />
                         <div asp-validation-summary="All" class="text-danger"></div>
                         <div class="form-group has-feedback">
+                            <label asp-for="Input.Email"></label>
                             <input type="email" class="form-control" placeholder="Email">
                             <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
                         </div>
@@ -32,24 +51,22 @@
                             <input asp-for="Input.ConfirmPassword" class="form-control" placeholder="ConfirmPassword" />
                             <span asp-validation-for="Input.ConfirmPassword" class="glyphicon glyphicon-log-in form-control-feedback"></span>
                         </div>
-
-
                         <div class="box-footer">
                             <button type="submit" class="btn btn-primary">Register</button>
                         </div>
                         <!--
-                            <div class="social-auth-links text-center">
-                                <p>- OR -</p>
-                                <a href="#" class="btn btn-block btn-social btn-facebook btn-flat">
-                                    <i class="fa fa-facebook"></i> Sign up using
-                                    Facebook
-                                </a>
-                                <a href="#" class="btn btn-block btn-social btn-google btn-flat">
-                                    <i class="fa fa-google-plus"></i> Sign up using
-                                    Google+
-                                </a>
-                            </div>
-        -->
+                                        <div class="social-auth-links text-center">
+                                            <p>- OR -</p>
+                                            <a href="#" class="btn btn-block btn-social btn-facebook btn-flat">
+                                                <i class="fa fa-facebook"></i> Sign up using
+                                                Facebook
+                                            </a>
+                                            <a href="#" class="btn btn-block btn-social btn-google btn-flat">
+                                                <i class="fa fa-google-plus"></i> Sign up using
+                                                Google+
+                                            </a>
+                                        </div>
+                    -->
                         <a href="~/identity/account/login" class="text-center">I already have a membership</a>
 
                     </form>
@@ -57,8 +74,9 @@
             </div>
         </div>
 
-    </div>
-</section>
+
+    </body>
+@*</section>*@
 
 
 @section Scripts {
