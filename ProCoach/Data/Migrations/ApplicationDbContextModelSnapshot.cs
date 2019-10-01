@@ -63,57 +63,6 @@ namespace ProCoach.Data.Migrations
                     b.ToTable("AspNetRoleClaims");
                 });
 
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUser", b =>
-                {
-                    b.Property<string>("Id")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<int>("AccessFailedCount");
-
-                    b.Property<string>("ConcurrencyStamp")
-                        .IsConcurrencyToken();
-
-                    b.Property<string>("email")
-                        .HasMaxLength(256);
-
-                    b.Property<bool>("EmailConfirmed");
-
-                    b.Property<bool>("LockoutEnabled");
-
-                    b.Property<DateTimeOffset?>("LockoutEnd");
-
-                    b.Property<string>("NormalizedEmail")
-                        .HasMaxLength(256);
-
-                    b.Property<string>("NormalizedUserName")
-                        .HasMaxLength(256);
-
-                    b.Property<string>("PasswordHash");
-
-                    b.Property<string>("PhoneNumber");
-
-                    b.Property<bool>("PhoneNumberConfirmed");
-
-                    b.Property<string>("SecurityStamp");
-
-                    b.Property<bool>("TwoFactorEnabled");
-
-                    b.Property<string>("UserName")
-                        .HasMaxLength(256);
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("NormalizedEmail")
-                        .HasName("EmailIndex");
-
-                    b.HasIndex("NormalizedUserName")
-                        .IsUnique()
-                        .HasName("UserNameIndex")
-                        .HasFilter("[NormalizedUserName] IS NOT NULL");
-
-                    b.ToTable("AspNetUsers");
-                });
-
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
                     b.Property<int>("Id")
@@ -184,23 +133,85 @@ namespace ProCoach.Data.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("ProCoach.Models.club", b =>
+            modelBuilder.Entity("ProCoach.Models.ApplicationUser", b =>
+                {
+                    b.Property<string>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<int>("AccessFailedCount");
+
+                    b.Property<string>("ConcurrencyStamp")
+                        .IsConcurrencyToken();
+
+                    b.Property<string>("Email")
+                        .HasMaxLength(256);
+
+                    b.Property<bool>("EmailConfirmed");
+
+                    b.Property<string>("FirstName");
+
+                    b.Property<string>("LastName");
+
+                    b.Property<bool>("LockoutEnabled");
+
+                    b.Property<DateTimeOffset?>("LockoutEnd");
+
+                    b.Property<string>("NormalizedEmail")
+                        .HasMaxLength(256);
+
+                    b.Property<string>("NormalizedUserName")
+                        .HasMaxLength(256);
+
+                    b.Property<string>("PasswordHash");
+
+                    b.Property<string>("PhoneNumber");
+
+                    b.Property<bool>("PhoneNumberConfirmed");
+
+                    b.Property<string>("SecurityStamp");
+
+                    b.Property<bool>("TwoFactorEnabled");
+
+                    b.Property<string>("UserName")
+                        .HasMaxLength(256);
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("NormalizedEmail")
+                        .HasName("EmailIndex");
+
+                    b.HasIndex("NormalizedUserName")
+                        .IsUnique()
+                        .HasName("UserNameIndex")
+                        .HasFilter("[NormalizedUserName] IS NOT NULL");
+
+                    b.ToTable("AspNetUsers");
+                });
+
+            modelBuilder.Entity("ProCoach.Models.Club", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Address");
+                    b.Property<string>("Address")
+                        .IsRequired();
 
-                    b.Property<string>("Phone");
+                    b.Property<string>("Phone")
+                        .IsRequired()
+                        .HasMaxLength(10);
 
-                    b.Property<string>("sport");
+                    b.Property<string>("Sport")
+                        .IsRequired()
+                        .HasMaxLength(10);
 
-                    b.Property<string>("Website");
+                    b.Property<string>("Website")
+                        .IsRequired()
+                        .HasMaxLength(10);
 
                     b.HasKey("ID");
 
-                    b.ToTable("club");
+                    b.ToTable("Club");
                 });
 
             modelBuilder.Entity("ProCoach.Models.Coach", b =>
@@ -227,11 +238,7 @@ namespace ProCoach.Data.Migrations
                         .IsRequired()
                         .HasMaxLength(10);
 
-                    b.Property<int?>("Teamid");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("Teamid");
 
                     b.ToTable("Coach");
                 });
@@ -252,7 +259,7 @@ namespace ProCoach.Data.Migrations
                     b.Property<string>("Dob")
                         .IsRequired();
 
-                    b.Property<string>("email")
+                    b.Property<string>("Email")
                         .IsRequired();
 
                     b.Property<string>("FirstName")
@@ -302,13 +309,13 @@ namespace ProCoach.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("coaches");
+                    b.Property<int>("CoachId");
 
                     b.Property<DateTime>("Date");
 
                     b.Property<int>("TeamId");
 
-                    b.Property<int>("Time");
+                    b.Property<DateTime>("Time");
 
                     b.HasKey("Id");
 
@@ -325,9 +332,7 @@ namespace ProCoach.Data.Migrations
                         .IsRequired()
                         .HasMaxLength(60);
 
-                    b.Property<string>("coaches")
-                        .IsRequired()
-                        .HasMaxLength(60);
+                    b.Property<int>("coaches");
 
                     b.Property<string>("competition")
                         .IsRequired()
@@ -349,6 +354,16 @@ namespace ProCoach.Data.Migrations
                     b.ToTable("Team");
                 });
 
+            modelBuilder.Entity("ProCoach.Models.UserRole", b =>
+                {
+                    b.Property<string>("RoleName")
+                        .ValueGeneratedOnAdd();
+
+                    b.HasKey("RoleName");
+
+                    b.ToTable("UserRole");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole")
@@ -359,7 +374,7 @@ namespace ProCoach.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser")
+                    b.HasOne("ProCoach.Models.ApplicationUser")
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
@@ -367,7 +382,7 @@ namespace ProCoach.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser")
+                    b.HasOne("ProCoach.Models.ApplicationUser")
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
@@ -380,7 +395,7 @@ namespace ProCoach.Data.Migrations
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade);
 
-                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser")
+                    b.HasOne("ProCoach.Models.ApplicationUser")
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
@@ -388,17 +403,10 @@ namespace ProCoach.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser")
+                    b.HasOne("ProCoach.Models.ApplicationUser")
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
-                });
-
-            modelBuilder.Entity("ProCoach.Models.Coach", b =>
-                {
-                    b.HasOne("ProCoach.Models.Team", "Team")
-                        .WithMany("Coaches")
-                        .HasForeignKey("Teamid");
                 });
 #pragma warning restore 612, 618
         }

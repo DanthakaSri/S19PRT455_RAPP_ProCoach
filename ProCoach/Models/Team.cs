@@ -26,17 +26,13 @@ namespace ProCoach.Models
         [Required]
         public string sport { get; set; }
 
-        [StringLength(60, MinimumLength = 3)]
         [Required]
-        public string  coaches { get; set; }
+        public int  coaches { get; set; }
         
         [StringLength(60, MinimumLength = 3)]
         [Required]
         public string competition { get; set; }
-
-        public virtual ICollection<Coach> Coaches{ get; set; }
         
-
 
 
     }

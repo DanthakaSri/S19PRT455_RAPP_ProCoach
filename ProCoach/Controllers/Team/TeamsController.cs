@@ -21,6 +21,7 @@ namespace ProCoach.Controllers
         // GET: Teams
         public async Task<IActionResult> Index()
         {
+            
             return View(await _context.Team.ToListAsync());
         }
 

@@ -45,6 +45,9 @@ namespace ProCoach.Controllers.Schedule
         // GET: Schedules/Create
         public IActionResult Create()
         {
+
+            ViewBag.coaches = _context.Coach.ToList();
+            ViewBag.teams = _context.Team.ToList();
             return View();
         }
 

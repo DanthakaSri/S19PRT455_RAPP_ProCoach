@@ -13,6 +13,7 @@ using Microsoft.EntityFrameworkCore;
 using ProCoach.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using ProCoach.Models;
 
 namespace ProCoach
 {
@@ -43,12 +44,12 @@ namespace ProCoach
 
 
 
-            services.AddDefaultIdentity<IdentityUser>()
+            services.AddDefaultIdentity<ApplicationUser>()
+                .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
+                
 
-
-            
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }

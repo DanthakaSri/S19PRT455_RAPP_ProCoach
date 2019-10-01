@@ -2,7 +2,7 @@
 
 namespace ProCoach.Data.Migrations
 {
-    public partial class reverse_team : Migration
+    public partial class add_roleBasedAuth : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

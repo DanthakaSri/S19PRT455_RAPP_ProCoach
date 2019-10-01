@@ -6,13 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Controllers\NewFolder\**" />
-    <Content Remove="Controllers\NewFolder\**" />
-    <EmbeddedResource Remove="Controllers\NewFolder\**" />
-    <None Remove="Controllers\NewFolder\**" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Compile Remove="Data\Migrations\20190919073117_Procoach_Coaches_list.cs" />
     <Compile Remove="Data\Migrations\20190919073117_Procoach_Coaches_list.Designer.cs" />
     <Compile Remove="Data\Migrations\20190919073601_Procoach_Coaches_list.cs" />

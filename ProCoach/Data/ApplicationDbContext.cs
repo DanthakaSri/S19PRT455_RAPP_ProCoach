@@ -8,11 +8,16 @@ using ProCoach.Models;
 
 namespace ProCoach.Data
 {
-    public class ApplicationDbContext : IdentityDbContext
+    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
+        }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
         }
 
         public DbSet<Team> Team { get; set; }
@@ -21,11 +26,7 @@ namespace ProCoach.Data
         public DbSet<Player> Player { get; set; }
         public DbSet<PracticeSession> PracticeSession { get; set; }
         public DbSet<Schedule> Schedule { get; set; }
-
-        //public DbSet<ProCoach.Data.practice_session> Practice_Session { get; set; }
-
-
-
+        public DbSet<ProCoach.Models.UserRole> UserRole { get; set; }
 
 
     }

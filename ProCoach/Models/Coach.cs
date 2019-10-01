@@ -36,7 +36,5 @@ namespace ProCoach.Models
         [Required]
         public string Address { get; set; }
 
-        public virtual Team Team { get; set; }
-
     }
 }
