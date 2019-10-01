@@ -56,7 +56,7 @@ namespace ProCoach.Controllers.Player
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,FirstName,LastName,Dob,Mobile_Number,Club_Name,Team,Game_Type,Address,email")] Models.Player player)
+        public async Task<IActionResult> Create([Bind("Id,FirstName,LastName,Dob,Mobile_Number,Club_Name,Team,Game_Type,Address,Email")] Models.Player player)
         {
             if (ModelState.IsValid)
             {
