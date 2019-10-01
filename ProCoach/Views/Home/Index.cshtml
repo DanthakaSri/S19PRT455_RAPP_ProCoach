@@ -1,5 +1,4 @@
-﻿
-@using Microsoft.AspNetCore.Identity
+﻿@using Microsoft.AspNetCore.Identity
 @{
     Layout = "";
 }
@@ -79,10 +78,7 @@
                 <div class="row about-container">
 
                     <div class="col-lg-6 content order-lg-1 order-2">
-                        @*<p>
-                                                    </p>*@
-
-                        <div class="icon-box wow fadeInUp">
+                           <div class="icon-box wow fadeInUp">
                             <div class="icon"><i class="fa fa-shopping-bag"></i></div>
                             <h4 class="title"><a href="">Organise</a></h4>
                             <p class="description">Organise your teams in a heartbeat with powerful and easy tools. </p>
@@ -101,9 +97,10 @@
                         </div>
 
                     </div>
+                    </div>
 
-                    <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
-                        <img src="/home/img/about-img.svg" class="img-fluid" alt="">
+                    @*<div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
+                        <img src="/home/img/about-img.svg" class="img-fluid" alt="">*@
 
                     @*<div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
                         <img src="~/home/img/about-img.svg" class="img-fluid" alt="">
@@ -147,6 +144,7 @@
                 </div>
 
             </div>*@
+                        </div>
         </section><!-- #about -->
         <!--==========================
         Services Section
@@ -218,7 +216,7 @@
             <div class="container">
                 <header class="section-header">
                     <h3>Why choose us?</h3>
-                    <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>
+                    <p>ProCoach helps any player or coaches to manage their teams, various practice session according to the players availability quickly and conveniently</p>
                 </header>
 
                 <div class="row row-eq-height justify-content-center">
@@ -227,9 +225,8 @@
                         <div class="card wow bounceInUp">
                             <i class="fa fa-diamond"></i>
                             <div class="card-body">
-                                <h5 class="card-title">Corporis dolorem</h5>
-                                <p class="card-text">Deleniti optio et nisi dolorem debitis. Aliquam nobis est temporibus sunt ab inventore officiis aut voluptatibus.</p>
-                                <a href="#" class="readmore">Read more </a>
+                                <h5 class="card-title">Easy to use</h5>
+                                
                             </div>
                         </div>
                     </div>
@@ -238,9 +235,8 @@
                         <div class="card wow bounceInUp">
                             <i class="fa fa-language"></i>
                             <div class="card-body">
-                                <h5 class="card-title">Voluptates dolores</h5>
-                                <p class="card-text">Voluptates nihil et quis omnis et eaque omnis sint aut. Ducimus dolorum aspernatur.</p>
-                                <a href="#" class="readmore">Read more </a>
+                                <h5 class="card-title">Less Work, Play more</h5>
+                                
                             </div>
                         </div>
                     </div>
@@ -249,9 +245,8 @@
                         <div class="card wow bounceInUp">
                             <i class="fa fa-object-group"></i>
                             <div class="card-body">
-                                <h5 class="card-title">Eum ut aspernatur</h5>
-                                <p class="card-text">Autem quod nesciunt eos ea aut amet laboriosam ab. Eos quis porro in non nemo ex. </p>
-                                <a href="#" class="readmore">Read more </a>
+                                <h5 class="card-title">Quick</h5>
+                             
                             </div>
                         </div>
                     </div>
@@ -261,22 +256,22 @@
                 <div class="row counters">
 
                     <div class="col-lg-3 col-6 text-center">
-                        <span data-toggle="counter-up">274</span>
+                        <span data-toggle="counter-up">0</span>
                         <p>Clients</p>
                     </div>
 
                     <div class="col-lg-3 col-6 text-center">
-                        <span data-toggle="counter-up">421</span>
+                        <span data-toggle="counter-up">1</span>
                         <p>Projects</p>
                     </div>
 
                     <div class="col-lg-3 col-6 text-center">
-                        <span data-toggle="counter-up">1,364</span>
+                        <span data-toggle="counter-up">247</span>
                         <p>Hours Of Support</p>
                     </div>
 
                     <div class="col-lg-3 col-6 text-center">
-                        <span data-toggle="counter-up">18</span>
+                        <span data-toggle="counter-up">4</span>
                         <p>Hard Workers</p>
                     </div>
 
@@ -286,161 +281,9 @@
         </section>
 
         <!--==========================
-        Portfolio Section
-        ============================-->
-        <section id="portfolio" class="clearfix">
-            <div class="container">
-
-                <header class="section-header">
-                    <h3 class="section-title">Our Portfolio</h3>
-                </header>
-
-                <div class="row">
-                    <div class="col-lg-12">
-                        <ul id="portfolio-flters">
-                            <li data-filter="*" class="filter-active">All</li>
-                            <li data-filter=".filter-app">App</li>
-                            <li data-filter=".filter-card">Card</li>
-                            <li data-filter=".filter-web">Web</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="row portfolio-container">
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <div class="portfolio-wrap">
-                            <img src="/home/img/portfolio/app1.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4><a href="#">App 1</a></h4>
-                                <p>App</p>
-                                <div>
-                                    <a href="/home/img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
-                                    <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
-                        <div class="portfolio-wrap">
-                            <img src="/home/img/portfolio/web3.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4><a href="#">Web 3</a></h4>
-                                <p>Web</p>
-                                <div>
-                                    <a href="/home/img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
-                                    <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
-                        <div class="portfolio-wrap">
-                            <img src="/home/img/portfolio/app2.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4><a href="#">App 2</a></h4>
-                                <p>App</p>
-                                <div>
-                                    <a href="/home/img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
-                                    <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <div class="portfolio-wrap">
-                            <img src="/home/img/portfolio/card2.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4><a href="#">Card 2</a></h4>
-                                <p>Card</p>
-                                <div>
-                                    <a href="/home/img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
-                                    <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
-                        <div class="portfolio-wrap">
-                            <img src="/home/img/portfolio/web2.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4><a href="#">Web 2</a></h4>
-                                <p>Web</p>
-                                <div>
-                                    <a href="/home/img/portfolio/web2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>
-                                    <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
-                        <div class="portfolio-wrap">
-                            <img src="/home/img/portfolio/app3.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4><a href="#">App 3</a></h4>
-                                <p>App</p>
-                                <div>
-                                    <a href="/home/img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
-                                    <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <div class="portfolio-wrap">
-                            <img src="/home/img/portfolio/card1.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4><a href="#">Card 1</a></h4>
-                                <p>Card</p>
-                                <div>
-                                    <a href="/home/img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
-                                    <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card" data-wow-delay="0.1s">
-                        <div class="portfolio-wrap">
-                            <img src="/home/img/portfolio/card3.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4><a href="#">Card 3</a></h4>
-                                <p>Card</p>
-                                <div>
-                                    <a href="/home/img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
-                                    <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.2s">
-                        <div class="portfolio-wrap">
-                            <img src="/home/img/portfolio/web1.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4><a href="#">Web 1</a></h4>
-                                <p>Web</p>
-                                <div>
-                                    <a href="/home/img/portfolio/web1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
-                                    <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section><!-- #portfolio -->
-        <!--==========================
-        Clients Section
-        ============================-->
+        ==========================
+        @*Clients Section
+        ============================
         <section id="testimonials" class="section-bg">
             <div class="container">
 
@@ -505,7 +348,7 @@
 
 
             </div>
-        </section><!-- #testimonials -->
+        </section> #testimonials*@ 
         <!--==========================
         Team Section
         ============================-->
@@ -603,58 +446,24 @@
 
                 <div class="section-header">
                     <h3>Our CLients</h3>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque dere santome nida.</p>
+                    <p> Our Course Coordinators are the Clients..</p>
                 </div>
 
                 <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
 
-                    <div class="col-lg-3 col-md-4 col-xs-6">
-                        <div class="client-logo">
-                            <img src="/home/img/clients/client-1.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
+                   
 
-                    <div class="col-lg-3 col-md-4 col-xs-6">
-                        <div class="client-logo">
-                            <img src="/home/img/clients/client-2.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
+                  
 
-                    <div class="col-lg-3 col-md-4 col-xs-6">
-                        <div class="client-logo">
-                            <img src="/home/img/clients/client-3.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
+                 
 
-                    <div class="col-lg-3 col-md-4 col-xs-6">
-                        <div class="client-logo">
-                            <img src="/home/img/clients/client-4.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
+                 
 
-                    <div class="col-lg-3 col-md-4 col-xs-6">
-                        <div class="client-logo">
-                            <img src="/home/img/clients/client-5.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
+                  
 
-                    <div class="col-lg-3 col-md-4 col-xs-6">
-                        <div class="client-logo">
-                            <img src="/home/img/clients/client-6.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
+                   
 
-                    <div class="col-lg-3 col-md-4 col-xs-6">
-                        <div class="client-logo">
-                            <img src="/home/img/clients/client-7.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 col-xs-6">
-                        <div class="client-logo">
-                            <img src="/home/img/clients/client-8.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
+                  
 
                 </div>
 
@@ -676,7 +485,7 @@
 
                     <div class="col-lg-6">
                         <div class="map mb-4 mb-lg-0">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border: 0; width: 100%; height: 312px;" allowfullscreen></iframe>
+                            <iframe src="https://www.google.com/maps/place/Charles+Darwin+University//12.3717852,130.8667312,17z/data=!3m1!4b1!4m5!3m4!1s0x2b23403c64430495:0xfb587574debe8fd9!8m2!3d-12.3717852!4d130.8689199" frameborder="0" style="border: 0; width: 100%; height: 312px;" allowfullscreen></iframe>
                         </div>
                     </div>
 
@@ -684,15 +493,17 @@
                         <div class="row">
                             <div class="col-md-5 info">
                                 <i class="ion-ios-location-outline"></i>
-                                <p>A108 Adam Street, NY 535022</p>
+                                <p>
+                                    Charles Darwin University, Ellengowan Drive, Casuarina
+                                </p>
                             </div>
                             <div class="col-md-4 info">
                                 <i class="ion-ios-email-outline"></i>
-                                <p>info@example.com</p>
+                                <p>info@procoach.com</p>
                             </div>
                             <div class="col-md-3 info">
                                 <i class="ion-ios-telephone-outline"></i>
-                                <p>+1 5589 55488 55</p>
+                                <p>08 8946 6666</p>
                             </div>
                         </div>
 
@@ -757,11 +568,11 @@
                     <div class="col-lg-3 col-md-6 footer-contact">
                         <h4>Contact Us</h4>
                         <p>
-                            A108 Adam Street <br>
-                            New York, NY 535022<br>
-                            United States <br>
-                            <strong>Phone:</strong> +1 5589 55488 55<br>
-                            <strong>email:</strong> info@example.com<br>
+                            Charles Darwin University <br>
+                            Ellengowan Drive, Casuarina<br>
+                            Australia <br>
+                            <strong>Phone:</strong> 08 8946 6666<br>
+                            <strong>email:</strong> info@procoach.com<br>
                         </p>
 
                         <div class="social-links">
