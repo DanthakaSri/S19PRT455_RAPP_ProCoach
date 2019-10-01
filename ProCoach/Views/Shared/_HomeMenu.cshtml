@@ -1,32 +1,31 @@
-﻿
-    <head>
-        <meta charset="utf-8">
-        <title>ProCoach</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="" name="keywords">
-        <meta content="" name="description">
+﻿<head>
+    <meta charset="utf-8">
+    <title>ProCoach</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
-        <environment include="Development">
+    <environment include="Development">
 
-            <!-- Google Fonts -->
-            <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
-            <!-- Bootstrap CSS File -->
-            <link href="/home/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Bootstrap CSS File -->
+        <link href="/home/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-            <!-- Libraries CSS Files -->
-            <link href="/home/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-            <link href="/home/lib/animate/animate.min.css" rel="stylesheet">
-            <link href="/home/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-            <link href="/home/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-            <link href="/home/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <!-- Libraries CSS Files -->
+        <link href="/home/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="/home/lib/animate/animate.min.css" rel="stylesheet">
+        <link href="/home/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+        <link href="/home/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="/home/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
-            <!-- Main Stylesheet File -->
-            <link href="/home/css/style.css" rel="stylesheet">
+        <!-- Main Stylesheet File -->
+        <link href="/home/css/style.css" rel="stylesheet">
 
-        </environment>
+    </environment>
 
-    </head>
+</head>
 
 
 <header id="header" class="fixed-top">
@@ -35,7 +34,9 @@
         <div class="logo float-left">
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
-            <a href="#intro" class="scrollto"><img src="/home/img/Logo-01.jpg" alt="" width="185px" height="200px" class="img-fluid"></a>
+            <a href="#intro" class="scrollto">
+                <img src="/home/img/Logo-01.jpg" alt="" width="185px" height="200px" class="img-fluid">
+            </a>
         </div>
 
         <nav class="main-nav float-right d-none d-lg-block">
@@ -43,30 +44,55 @@
 
                 @if (User.Identity.IsAuthenticated)
                 {
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
-                    <li><a asp-area="" asp-controller="Teams" asp-action="Index">Team</a></li>
-                    <li><a asp-area="" asp-controller="Clubs" asp-action="Index">Club</a></li>
-                    <li><a asp-area="" asp-controller="Coaches" asp-action="Index">Coach</a></li>
-                    <li><a asp-area="" asp-controller="Players" asp-action="Index">Player</a></li>
-                    <li><a asp-area="" asp-controller="Administrators" asp-action="ListRoles">User roles</a></li>
-                    <li><a asp-area="" asp-controller="PracticeSessions" asp-action="Index">Practice Session</a></li>
-                    <li><a asp-area="" asp-controller="Schedules" asp-action="Index">Schedule</a></li>
-                    <li><a asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage"> Profile</a></li>
-
-
-
+                    <li>
+                        <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                    </li>
+                    <li>
+                        <a asp-area="" asp-controller="Teams" asp-action="Index">Team</a>
+                    </li>
+                    <li>
+                        <a asp-area="" asp-controller="Clubs" asp-action="Index">Club</a>
+                    </li>
+                    <li>
+                        <a asp-area="" asp-controller="Coaches" asp-action="Index">Coach</a>
+                    </li>
+                    <li>
+                        <a asp-area="" asp-controller="Players" asp-action="Index">Player</a>
+                    </li>
+                    <li>
+                        <a asp-area="" asp-controller="Administrators" asp-action="ListRoles">User roles</a>
+                    </li>
+                    <li>
+                        <a asp-area="" asp-controller="PracticeSessions" asp-action="Index">Practice Session</a>
+                    </li>
+                    <li>
+                        <a asp-area="" asp-controller="Schedules" asp-action="Index">Schedule</a>
+                    </li>
+                    <li>
+                        <a asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage"> Profile</a>
+                    </li>
                 }
                 else
                 {
-                    <li class="active"><a href="#intro">Home</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
-                    <partial name="_LoginPartial" />
+                    <li class="active">
+                        <a href="#intro">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#team">Team</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact Us</a>
+                    </li>
+                    <partial name="_LoginPartial"/>
                 }
 
             </ul>
@@ -75,4 +101,3 @@
 
     </div>
 </header><!-- #header -->
-
