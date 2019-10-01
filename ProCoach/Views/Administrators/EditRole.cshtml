@@ -1,0 +1,53 @@
+﻿@model ProCoach.Views.Administrators.EditViewModel
+
+@{
+    ViewData["Title"] = "Edit Role details";
+    Layout = "_AdminLayout";
+}
+<section class="content">
+
+
+    <div class="row">
+
+
+
+        <div class="col-md-6">
+            <div class="box box-primary">
+                <div class="box-header with-border">
+                    <h3 class="box-title">@ViewData["Title"]</h3>
+                </div>
+
+                <form asp-action="EditRole">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="box-body">
+                        <div class="form-group">
+                            <label asp-for="Id" class="control-label"></label>
+                            <input asp-for="Id" class="form-control" />
+                            <span asp-validation-for="Id" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="RoleName" class="control-label"></label>
+                            <input asp-for="RoleName" class="form-control" />
+                            <span asp-validation-for="RoleName" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <!-- /.box-body -->
+
+                    <div class="box-footer">
+                        <button type="submit"  class="btn btn-primary">Submit</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <a asp-action="ListRoles" class="btn btn-success">Back to List</a>
+    </div>
+
+</section>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

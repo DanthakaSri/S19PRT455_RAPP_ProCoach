@@ -1,0 +1,69 @@
+﻿@model IEnumerable<Microsoft.AspNetCore.Identity.IdentityRole>
+
+@{
+    ViewData["Title"] = "User Roles";
+    Layout = "_AdminLayout";
+}
+
+
+<section class="content">
+
+
+
+    <p>
+        <a asp-action="CreateRole" class="btn btn-primary">Create New</a>
+    </p>
+
+    <div class="box">
+        <div class="box-header with-border">
+            <h3 class="box-title">Coach List</h3>
+        </div>
+        <!-- /.box-header -->
+        <div class="box-body">
+            <table class="table table-bordered">
+                <tr>
+                    <th>Role Id</th>
+                    <th>Role Name</th>
+                   
+                </tr>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Id)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NormalizedName)
+                        </td>
+                        
+                        <td>
+                            <div class="btn-group" role="group">
+                                <a asp-action="EditRole"  asp-controller="Administrators" asp-route-id="@item.Id" class="btn btn-primary">Edit</a>
+                                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">Details</a>
+                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+
+            </table>
+        </div>
+        <!-- /.box-body -->
+        <div class="box-footer clearfix">
+            <!-- <ul class="pagination pagination-sm no-margin pull-right">
+                <li><a href="#">&laquo;</a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">&raquo;</a></li>
+            </ul>-->
+        </div>
+    </div>
+    <!-- /.box -->
+
+
+
+
+</section>
+
+
