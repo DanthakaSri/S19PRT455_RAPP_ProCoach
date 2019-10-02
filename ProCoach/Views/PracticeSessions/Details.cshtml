@@ -1,38 +1,73 @@
 ﻿@model PracticeSession
 
 @{
-    ViewData["Title"] = "Details";
-        Layout = "_AdminLayout";
+    ViewData["Title"] = "Practice Session Informations";
+    Layout = "_AdminLayout";
 
 }
 
-<h2>Details</h2>
+<section class="content">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="box">
+                <div class="box-header">
+                    <h3 class="box-title"><i class="fa fa-info-circle"></i> @ViewData["Title"]</h3>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body no-padding">
+                    <table class="table table-striped">
+                        <tbody>
 
-<div>
-    <h4>PracticeSession</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Team_id)
-        </dt>
-        <dd>
-            @Html.DisplayFor(model => model.Team_id)
-        </dd>
-        <dt>
-            @Html.DisplayNameFor(model => model.Coach_id)
-        </dt>
-        <dd>
-            @Html.DisplayFor(model => model.Coach_id)
-        </dd>
-        <dt>
-            @Html.DisplayNameFor(model => model.Address)
-        </dt>
-        <dd>
-            @Html.DisplayFor(model => model.Address)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+                            <tr>
+                                <td> <i class="fa fa-circle-o"></i></td>
+                                <td>
+                                    <b>
+                                        @Html.DisplayNameFor(model => model.Team_id)
+                                    </b>
+                                </td>
+                                <td>
+
+                                    @Html.DisplayFor(model => model.Team_id)
+                                </td>
+                            </tr>
+                            <tr>
+                                <td> <i class="fa fa-circle-o"></i></td>
+                                <td>
+                                    <b>
+                                        @Html.DisplayNameFor(model => model.Coach_id)
+                                    </b>
+                                </td>
+                                <td>
+
+                                    @Html.DisplayFor(model => model.Coach_id)
+                                </td>
+                            </tr>
+                            <tr>
+                                <td> <i class="fa fa-circle-o"></i></td>
+                                <td>
+                                    <b>
+                                        @Html.DisplayNameFor(model => model.Address)
+                                    </b>
+                                </td>
+                                <td>
+
+                                    @Html.DisplayFor(model => model.Address)
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+        <div class="btn-group" role="group">
+            <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Edit</a>
+            <a asp-action="Index" class="btn btn-success">Back to List</a>
+        </div>
+</section>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
